@@ -1,12 +1,12 @@
 
 
 class Dog:
-    # Class variable
+    
     animal = "Dog"
 
     
     def __init__(self, breed, name):
-        # Instance variables
+        
         self.breed = breed
         self.name = name
 
