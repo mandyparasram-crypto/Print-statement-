@@ -1,0 +1,27 @@
+
+
+class Dog:
+    # Class variable
+    animal = "Dog"
+
+    
+    def __init__(self, breed, name):
+        # Instance variables
+        self.breed = breed
+        self.name = name
+
+    
+    def display(self):
+        print("Animal:", Dog.animal)
+        print("Breed:", self.breed)
+        print("Name:", self.name)
+        print()
+
+
+
+dog1 = Dog("German Shepherd", "Max")
+dog2 = Dog("Golden Retriever", "Bella")
+
+
+dog1.display()
+dog2.display()
